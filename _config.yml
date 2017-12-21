@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://xingjiawei.cn/
+url: https://xingjiawei.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,6 +82,14 @@ deploy:
       github: git@github.com:JiaweiXing/JiaweiXing.githup.io.git,master
       coding: git@git.coding.net:jiaweixing/jiaweixing.git,master
   # branch: master
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 jsonContent:
     meta: false

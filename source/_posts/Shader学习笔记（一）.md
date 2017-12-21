@@ -6,6 +6,8 @@ tags:
         - Shader
         - 学习笔记
 ---
+简单介绍图形开发流程和CG语法
+<!--more-->
 ## [图形编程历史](https://www.cnblogs.com/maple-share/p/5382228.html)
 ## 渲染流水线
 ### 目前最新的可编程图形硬件支持功能：
